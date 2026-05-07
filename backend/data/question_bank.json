@@ -1,0 +1,63 @@
+[
+  {
+    "id": "mood_valence",
+    "prompt": "Right now my overall mood feels",
+    "lowLabel": "heavy",
+    "highLabel": "bright",
+    "weights": {
+      "self_valence": 1.0,
+      "smile": 0.25
+    }
+  },
+  {
+    "id": "body_energy",
+    "prompt": "My body energy is",
+    "lowLabel": "drained",
+    "highLabel": "charged",
+    "weights": {
+      "self_energy": 1.0,
+      "eye_open": 0.2
+    }
+  },
+  {
+    "id": "stress_load",
+    "prompt": "The pressure in my mind feels",
+    "lowLabel": "light",
+    "highLabel": "intense",
+    "weights": {
+      "stress": 1.0,
+      "brow_tension": 0.45
+    }
+  },
+  {
+    "id": "social_pull",
+    "prompt": "I feel like connecting with people",
+    "lowLabel": "not much",
+    "highLabel": "strongly",
+    "weights": {
+      "social": 1.0
+    }
+  },
+  {
+    "id": "mental_clarity",
+    "prompt": "My thoughts feel",
+    "lowLabel": "foggy",
+    "highLabel": "clear",
+    "weights": {
+      "face_tilt": -0.25,
+      "stress": -0.35,
+      "self_valence": 0.3
+    }
+  },
+  {
+    "id": "surprise_activation",
+    "prompt": "Something unexpected is still on my mind",
+    "lowLabel": "no",
+    "highLabel": "very much",
+    "weights": {
+      "mouth_open": 0.45,
+      "eye_open": 0.35,
+      "self_energy": 0.25
+    }
+  }
+]

@@ -1,0 +1,124 @@
+{
+  "items": [
+    {
+      "type": "movie",
+      "title": "Paddington 2",
+      "emotion_targets": ["sad", "stressed", "fearful"],
+      "tone": "gentle hopeful",
+      "description": "A warm, low-threat comfort movie with kindness, humor and a steady emotional landing.",
+      "tags": ["comfort", "family", "hope", "soft humor"]
+    },
+    {
+      "type": "movie",
+      "title": "The Secret Life of Walter Mitty",
+      "emotion_targets": ["confused", "calm", "sad"],
+      "tone": "reflective adventurous",
+      "description": "A visually spacious story about courage, identity and small steps toward a wider life.",
+      "tags": ["clarity", "self-discovery", "travel", "hope"]
+    },
+    {
+      "type": "movie",
+      "title": "Inside Out",
+      "emotion_targets": ["sad", "confused", "happy"],
+      "tone": "emotional insightful",
+      "description": "A direct but playful way to reflect on mixed feelings and the purpose of sadness.",
+      "tags": ["emotion literacy", "family", "self-awareness"]
+    },
+    {
+      "type": "movie",
+      "title": "Chef",
+      "emotion_targets": ["angry", "stressed", "happy"],
+      "tone": "restorative upbeat",
+      "description": "A food-and-family reset story that releases pressure through craft, music and connection.",
+      "tags": ["recovery", "food", "creativity", "connection"]
+    },
+    {
+      "type": "movie",
+      "title": "The Grand Budapest Hotel",
+      "emotion_targets": ["surprised", "calm", "happy"],
+      "tone": "witty stylized",
+      "description": "Fast, precise comedy with visual delight for a mind that wants novelty without heaviness.",
+      "tags": ["wit", "style", "curiosity", "play"]
+    },
+    {
+      "type": "book",
+      "title": "The Comfort Book by Matt Haig",
+      "emotion_targets": ["sad", "fearful", "stressed"],
+      "tone": "brief reassuring",
+      "description": "Short, compassionate passages that are easy to read when attention or energy is low.",
+      "tags": ["comfort", "short reads", "mental health"]
+    },
+    {
+      "type": "book",
+      "title": "Atomic Habits by James Clear",
+      "emotion_targets": ["confused", "stressed", "calm"],
+      "tone": "structured practical",
+      "description": "Simple behaviour systems for turning vague pressure into small, repeatable actions.",
+      "tags": ["clarity", "habits", "structure"]
+    },
+    {
+      "type": "book",
+      "title": "Big Magic by Elizabeth Gilbert",
+      "emotion_targets": ["happy", "surprised", "confused"],
+      "tone": "creative encouraging",
+      "description": "A light, energizing invitation to move curiosity into creative action.",
+      "tags": ["creativity", "curiosity", "confidence"]
+    },
+    {
+      "type": "book",
+      "title": "Meditations by Marcus Aurelius",
+      "emotion_targets": ["angry", "stressed", "calm"],
+      "tone": "grounded reflective",
+      "description": "Short reflections that help separate what happened from what you choose next.",
+      "tags": ["stoicism", "perspective", "de-escalation"]
+    },
+    {
+      "type": "book",
+      "title": "The Little Prince by Antoine de Saint-Exupery",
+      "emotion_targets": ["sad", "calm", "confused"],
+      "tone": "tender reflective",
+      "description": "A gentle, symbolic story for softer reflection and emotional simplicity.",
+      "tags": ["tender", "classic", "meaning"]
+    },
+    {
+      "type": "joke",
+      "title": "Tiny Debug Joke",
+      "emotion_targets": ["stressed", "confused"],
+      "tone": "light nerdy",
+      "description": "Why did the function feel calm? It finally returned.",
+      "tags": ["short", "programming", "relief"]
+    },
+    {
+      "type": "joke",
+      "title": "Coffee Mood",
+      "emotion_targets": ["sad", "calm"],
+      "tone": "soft playful",
+      "description": "My coffee tried meditation. Now it is less espresso, more depresso-no-more.",
+      "tags": ["gentle", "coffee", "wordplay"]
+    },
+    {
+      "type": "joke",
+      "title": "Anger Cooling",
+      "emotion_targets": ["angry", "stressed"],
+      "tone": "de-escalating",
+      "description": "I told my temper to take five. It negotiated for three and a snack.",
+      "tags": ["short", "cooldown", "snack"]
+    },
+    {
+      "type": "joke",
+      "title": "Surprise Note",
+      "emotion_targets": ["surprised", "happy"],
+      "tone": "curious silly",
+      "description": "I joined a surprise party planning group. Nobody expected me, so technically I passed.",
+      "tags": ["surprise", "playful", "social"]
+    },
+    {
+      "type": "joke",
+      "title": "Fear Grounding",
+      "emotion_targets": ["fearful"],
+      "tone": "gentle silly",
+      "description": "My anxiety bought a planner. It scheduled worrying for later, then forgot the meeting.",
+      "tags": ["grounding", "soft", "worry"]
+    }
+  ]
+}

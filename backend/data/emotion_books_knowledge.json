@@ -1,0 +1,58 @@
+[
+  {
+    "id": "book-darwin-expression",
+    "title": "Facial expression as communication",
+    "emotion_targets": ["happy", "sad", "angry", "fearful", "surprised"],
+    "source": "Book-informed note: Charles Darwin, The Expression of the Emotions in Man and Animals",
+    "text": "Facial expression can act as a social signal, but it is not a perfect truth machine. A smile, raised brow, tense mouth or widened eyes should be treated as evidence that becomes stronger when it agrees with posture, situation and self-report."
+  },
+  {
+    "id": "book-ekman-basic-emotions",
+    "title": "Basic emotion pattern families",
+    "emotion_targets": ["happy", "sad", "angry", "fearful", "surprised"],
+    "source": "Book-informed note: Paul Ekman, Emotions Revealed",
+    "text": "Basic emotion families often have recognizable expression patterns, but each family contains many intensities and blends. Better analysis ranks multiple likely states and shows uncertainty instead of forcing one absolute label."
+  },
+  {
+    "id": "book-gross-regulation",
+    "title": "Emotion regulation strategy",
+    "emotion_targets": ["angry", "fearful", "stressed", "sad"],
+    "source": "Book-informed note: James Gross emotion regulation framework",
+    "text": "People regulate emotion by changing the situation, shifting attention, reappraising meaning or changing response. Recommendations should match arousal: high stress needs low-load grounding, while sadness often needs gentle activation and connection."
+  },
+  {
+    "id": "book-russell-circumplex",
+    "title": "Valence and arousal map",
+    "emotion_targets": ["happy", "sad", "angry", "fearful", "calm", "stressed"],
+    "source": "Book-informed note: circumplex emotion model",
+    "text": "A useful emotion map separates valence from arousal. Happy and calm can both be positive but differ in energy; anger and fear can both be negative and high arousal but differ in focus and action tendency."
+  },
+  {
+    "id": "book-damasio-body-signal",
+    "title": "Body signal and feeling",
+    "emotion_targets": ["stressed", "fearful", "calm", "confused"],
+    "source": "Book-informed note: Antonio Damasio somatic marker ideas",
+    "text": "Feelings are shaped by body signals as well as thought. Stress, fatigue, breath, muscle tension and alertness can change decision making, so the questionnaire improves analysis when the camera signal is weak."
+  },
+  {
+    "id": "book-goleman-emotional-intelligence",
+    "title": "Emotional intelligence cue",
+    "emotion_targets": ["confused", "angry", "sad", "stressed"],
+    "source": "Book-informed note: Daniel Goleman, Emotional Intelligence",
+    "text": "Useful emotion support begins by naming the state, checking intensity and choosing a response. Recommendations should help the person pause, understand the signal and move toward a constructive next action."
+  },
+  {
+    "id": "book-plutchik-blends",
+    "title": "Emotion blends and mixtures",
+    "emotion_targets": ["confused", "surprised", "fearful", "happy", "sad"],
+    "source": "Book-informed note: Robert Plutchik emotion wheel",
+    "text": "Emotions often appear as blends rather than isolated categories. Confusion can mix surprise, uncertainty and stress; bittersweet moods can mix sadness and warmth. The app should display top probabilities instead of hiding mixed states."
+  },
+  {
+    "id": "book-mood-journal",
+    "title": "Mood journal pattern reading",
+    "emotion_targets": ["sad", "stressed", "calm", "happy"],
+    "source": "Book-informed note: mood tracking and reflective journaling practices",
+    "text": "Repeated observations are more reliable than one moment. If the same state appears across camera frames and self-report questions, confidence should rise; if signals disagree, the app should ask reflective questions."
+  }
+]

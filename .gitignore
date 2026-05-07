@@ -1,0 +1,14 @@
+node_modules/
+dist/
+.venv/
+logs/
+backend/storage/*.joblib
+backend/data/kaggle/
+backend/data/fer2013.csv
+backend/data/icml_face_data.csv
+backend/__pycache__/
+**/__pycache__/
+*.pyc
+.env
+.env.*
+!.env.example

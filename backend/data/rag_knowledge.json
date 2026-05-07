@@ -1,0 +1,50 @@
+[
+  {
+    "id": "happy-regulation",
+    "title": "Happy regulation pattern",
+    "emotion_targets": ["happy"],
+    "text": "Happy states often show higher valence, moderate to high energy, easier social approach and more flexible attention. Helpful media can reinforce gratitude, connection and playful novelty without overstimulation."
+  },
+  {
+    "id": "sad-support",
+    "title": "Sad support pattern",
+    "emotion_targets": ["sad"],
+    "text": "Sad states often show low valence, low energy, social withdrawal and slower decision making. Helpful recommendations should feel gentle, hopeful, human and not demand too much attention."
+  },
+  {
+    "id": "anger-deescalation",
+    "title": "Anger de-escalation pattern",
+    "emotion_targets": ["angry"],
+    "text": "Anger patterns often combine high stress, high energy and strong brow tension. Helpful content should lower arousal, offer perspective and avoid provocative or chaotic material."
+  },
+  {
+    "id": "fear-grounding",
+    "title": "Fear grounding pattern",
+    "emotion_targets": ["fearful"],
+    "text": "Fearful states often include high stress, wide eyes, higher energy and threat scanning. Helpful recommendations should be grounding, predictable, warm and confidence-building."
+  },
+  {
+    "id": "surprise-curiosity",
+    "title": "Surprise curiosity pattern",
+    "emotion_targets": ["surprised"],
+    "text": "Surprise usually blends high eye openness, mouth openness and alert energy. Helpful content can channel that activation into curiosity, discovery and light wonder."
+  },
+  {
+    "id": "calm-maintenance",
+    "title": "Calm maintenance pattern",
+    "emotion_targets": ["calm"],
+    "text": "Calm states show low stress, steady attention and moderate valence. Helpful content should preserve steadiness, offer reflective pleasure and avoid heavy emotional spikes."
+  },
+  {
+    "id": "stress-relief",
+    "title": "Stress relief pattern",
+    "emotion_targets": ["stressed"],
+    "text": "Stress patterns combine high pressure, high energy, narrowed attention and body tension. Helpful recommendations should reduce cognitive load and support recovery."
+  },
+  {
+    "id": "confusion-clarity",
+    "title": "Confusion clarity pattern",
+    "emotion_targets": ["confused"],
+    "text": "Confusion often includes mixed valence, unclear body signals and uneven attention. Helpful recommendations should be simple, structured and gently engaging."
+  }
+]

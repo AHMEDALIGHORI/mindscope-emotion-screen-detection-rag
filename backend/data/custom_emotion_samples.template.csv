@@ -1,0 +1,4 @@
+emotion,smile,eye_open,brow_tension,mouth_open,face_tilt,self_valence,self_energy,social,stress
+happy,0.86,0.72,0.16,0.34,0.12,0.90,0.70,0.82,0.14
+sad,0.12,0.38,0.46,0.14,0.32,0.16,0.22,0.24,0.62
+stressed,0.18,0.64,0.78,0.34,0.54,0.30,0.84,0.36,0.92

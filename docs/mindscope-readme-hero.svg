@@ -1,0 +1,147 @@
+<svg width="1200" height="420" viewBox="0 0 1200 420" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">MindScope animated emotion detection pipeline</title>
+  <desc id="desc">An animated dark dashboard showing camera scan, questionnaire fallback, ensemble models, vector RAG and recommendations.</desc>
+  <defs>
+    <linearGradient id="panel" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#17211e"/>
+      <stop offset="1" stop-color="#0a0f0d"/>
+    </linearGradient>
+    <linearGradient id="teal" x1="0" y1="0" x2="1" y2="0">
+      <stop stop-color="#65d6c2"/>
+      <stop offset="1" stop-color="#70f2be"/>
+    </linearGradient>
+    <linearGradient id="amber" x1="0" y1="0" x2="1" y2="0">
+      <stop stop-color="#f0b75a"/>
+      <stop offset="1" stop-color="#ffd98b"/>
+    </linearGradient>
+    <filter id="glow" x="-80%" y="-80%" width="260%" height="260%">
+      <feGaussianBlur stdDeviation="7" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <pattern id="grid" width="42" height="42" patternUnits="userSpaceOnUse">
+      <path d="M 42 0 L 0 0 0 42" stroke="#ffffff" stroke-opacity="0.035" stroke-width="1"/>
+    </pattern>
+    <clipPath id="clip-card">
+      <rect x="24" y="24" width="1152" height="372" rx="28"/>
+    </clipPath>
+  </defs>
+
+  <rect width="1200" height="420" fill="#070b0a"/>
+  <rect width="1200" height="420" fill="url(#grid)"/>
+  <g clip-path="url(#clip-card)">
+    <rect x="24" y="24" width="1152" height="372" rx="28" fill="url(#panel)" stroke="#31413b"/>
+    <circle cx="192" cy="95" r="190" fill="#65d6c2" opacity="0.12"/>
+    <circle cx="1010" cy="334" r="230" fill="#f0b75a" opacity="0.08"/>
+    <path d="M 24 25 H 1176" stroke="#65d6c2" stroke-opacity="0.35"/>
+  </g>
+
+  <g transform="translate(74 64)">
+    <rect x="0" y="0" width="70" height="70" rx="16" fill="url(#teal)" filter="url(#glow)"/>
+    <path d="M35 18C29 18 26 22 26 27C21 28 19 32 20 36C16 39 17 47 24 49C25 55 33 57 37 52C42 56 50 54 51 47C57 45 58 37 53 34C55 28 51 23 46 22C44 19 40 18 35 18Z" stroke="#07100e" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M35 19V52M27 36H35M43 30H35M44 44H35" stroke="#07100e" stroke-width="3" stroke-linecap="round"/>
+  </g>
+
+  <text x="164" y="94" fill="#f7f2e8" font-family="Segoe UI, Arial, sans-serif" font-size="46" font-weight="800">MindScope</text>
+  <text x="166" y="130" fill="#aeb8ae" font-family="Segoe UI, Arial, sans-serif" font-size="20">emotion screen detection with OpenCV, ensemble ML, RAG and recommendations</text>
+
+  <g font-family="Segoe UI, Arial, sans-serif" font-size="15" font-weight="700">
+    <rect x="166" y="156" width="112" height="34" rx="10" fill="#0b110f" stroke="#31413b"/>
+    <text x="184" y="178" fill="#70f2be">91% model</text>
+    <rect x="290" y="156" width="126" height="34" rx="10" fill="#0b110f" stroke="#31413b"/>
+    <text x="309" y="178" fill="#f0b75a">21 features</text>
+    <rect x="428" y="156" width="156" height="34" rx="10" fill="#0b110f" stroke="#31413b"/>
+    <text x="447" y="178" fill="#f7f2e8">Kaggle-ready</text>
+  </g>
+
+  <g transform="translate(74 226)">
+    <rect x="0" y="0" width="202" height="118" rx="18" fill="#101816" stroke="#31413b"/>
+    <text x="20" y="31" fill="#aeb8ae" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="700">SIGNAL ONE</text>
+    <text x="20" y="61" fill="#f7f2e8" font-family="Segoe UI, Arial, sans-serif" font-size="22" font-weight="800">Face scan</text>
+    <rect x="135" y="23" width="43" height="24" rx="8" fill="#0b110f" stroke="#31413b"/>
+    <text x="145" y="40" fill="#70f2be" font-family="Segoe UI, Arial, sans-serif" font-size="12">live</text>
+    <g transform="translate(101 76)">
+      <circle r="10" fill="#65d6c2" filter="url(#glow)">
+        <animate attributeName="r" values="8;14;8" dur="2s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0.55;1;0.55" dur="2s" repeatCount="indefinite"/>
+      </circle>
+      <circle r="28" stroke="#65d6c2" stroke-opacity="0.35">
+        <animate attributeName="r" values="24;39;24" dur="2.6s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0.7;0.15;0.7" dur="2.6s" repeatCount="indefinite"/>
+      </circle>
+      <line x1="-74" y1="-48" x2="74" y2="-48" stroke="#65d6c2" stroke-width="3" stroke-linecap="round" opacity="0.85">
+        <animateTransform attributeName="transform" type="translate" values="0 -14;0 96;0 -14" dur="2.5s" repeatCount="indefinite"/>
+      </line>
+    </g>
+  </g>
+
+  <g transform="translate(314 226)">
+    <rect x="0" y="0" width="218" height="118" rx="18" fill="#101816" stroke="#31413b"/>
+    <text x="20" y="31" fill="#aeb8ae" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="700">SIGNAL TWO</text>
+    <text x="20" y="61" fill="#f7f2e8" font-family="Segoe UI, Arial, sans-serif" font-size="22" font-weight="800">Feeling check</text>
+    <g transform="translate(20 82)">
+      <rect width="156" height="8" rx="4" fill="#26302b"/>
+      <rect width="102" height="8" rx="4" fill="url(#amber)">
+        <animate attributeName="width" values="78;132;102;78" dur="3.8s" repeatCount="indefinite"/>
+      </rect>
+      <circle cx="102" cy="4" r="9" fill="#70f2be" filter="url(#glow)">
+        <animate attributeName="cx" values="78;132;102;78" dur="3.8s" repeatCount="indefinite"/>
+      </circle>
+    </g>
+  </g>
+
+  <g transform="translate(570 226)">
+    <rect x="0" y="0" width="254" height="118" rx="18" fill="#101816" stroke="#31413b"/>
+    <text x="20" y="31" fill="#aeb8ae" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="700">MODEL STACK</text>
+    <text x="20" y="61" fill="#f7f2e8" font-family="Segoe UI, Arial, sans-serif" font-size="22" font-weight="800">Forest + 3x9 NN</text>
+    <g transform="translate(20 81)">
+      <rect y="0" width="44" height="16" rx="5" fill="#65d6c2" opacity="0.85">
+        <animate attributeName="width" values="42;78;54;42" dur="2.8s" repeatCount="indefinite"/>
+      </rect>
+      <rect y="23" width="82" height="16" rx="5" fill="#f0b75a" opacity="0.9">
+        <animate attributeName="width" values="82;48;106;82" dur="3.1s" repeatCount="indefinite"/>
+      </rect>
+      <rect x="122" y="0" width="88" height="39" rx="10" fill="#0b110f" stroke="#31413b"/>
+      <text x="138" y="25" fill="#70f2be" font-family="Segoe UI, Arial, sans-serif" font-size="16" font-weight="800">blend</text>
+    </g>
+  </g>
+
+  <g transform="translate(862 226)">
+    <rect x="0" y="0" width="240" height="118" rx="18" fill="#101816" stroke="#31413b"/>
+    <text x="20" y="31" fill="#aeb8ae" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="700">RAG OUTPUT</text>
+    <text x="20" y="61" fill="#f7f2e8" font-family="Segoe UI, Arial, sans-serif" font-size="22" font-weight="800">Movies, books, jokes</text>
+    <g transform="translate(22 83)" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="700">
+      <rect width="55" height="26" rx="8" fill="#0b110f" stroke="#31413b"/>
+      <text x="14" y="18" fill="#70f2be">film</text>
+      <rect x="68" width="62" height="26" rx="8" fill="#0b110f" stroke="#31413b"/>
+      <text x="82" y="18" fill="#f0b75a">book</text>
+      <rect x="143" width="55" height="26" rx="8" fill="#0b110f" stroke="#31413b"/>
+      <text x="157" y="18" fill="#f7f2e8">joke</text>
+    </g>
+  </g>
+
+  <path id="flow" d="M276 285 C302 285 287 285 314 285 C548 285 336 285 570 285 C822 285 610 285 862 285" stroke="#65d6c2" stroke-opacity="0.25" stroke-width="3" stroke-linecap="round"/>
+  <circle r="7" fill="#70f2be" filter="url(#glow)">
+    <animateMotion dur="4.8s" repeatCount="indefinite" rotate="auto">
+      <mpath href="#flow"/>
+    </animateMotion>
+  </circle>
+  <circle r="5" fill="#f0b75a" filter="url(#glow)">
+    <animateMotion dur="4.8s" begin="1.6s" repeatCount="indefinite" rotate="auto">
+      <mpath href="#flow"/>
+    </animateMotion>
+  </circle>
+
+  <g transform="translate(905 68)" font-family="Segoe UI, Arial, sans-serif">
+    <rect x="0" y="0" width="202" height="110" rx="18" fill="#0b110f" stroke="#31413b"/>
+    <text x="22" y="34" fill="#aeb8ae" font-size="13" font-weight="700">EMOTIONAL SPECTRUM</text>
+    <polyline points="26,82 62,54 100,70 137,32 176,78" fill="none" stroke="#65d6c2" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" filter="url(#glow)">
+      <animate attributeName="points" values="26,82 62,54 100,70 137,32 176,78;26,64 62,76 100,46 137,62 176,42;26,82 62,54 100,70 137,32 176,78" dur="4s" repeatCount="indefinite"/>
+    </polyline>
+    <polyline points="26,70 62,78 100,58 137,65 176,52" fill="none" stroke="#f0b75a" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" opacity="0.8">
+      <animate attributeName="points" values="26,70 62,78 100,58 137,65 176,52;26,82 62,63 100,74 137,45 176,69;26,70 62,78 100,58 137,65 176,52" dur="5s" repeatCount="indefinite"/>
+    </polyline>
+  </g>
+</svg>
