@@ -169,3 +169,13 @@ The current score is validation accuracy on the starter dataset. It is useful fo
 ## Safety
 
 MindScope should be treated as a learning and wellness-assistive prototype. It should not be used as a medical, psychological, hiring, legal, school-discipline, policing or high-stakes decision tool without professional review, informed consent, bias testing and privacy controls.
+
+## Suggested GitHub Topics
+
+```text
+react python flask opencv machine-learning rag emotion-detection computer-vision recommendation-system vite
+```
+
+## License
+
+This project is available under the MIT License. See [LICENSE](LICENSE).
